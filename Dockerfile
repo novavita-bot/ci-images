@@ -1,3 +1,3 @@
 FROM scratch
 ADD toolchain /
-CMD ["/toolchain"]
+CMD ["./toolchain"]
