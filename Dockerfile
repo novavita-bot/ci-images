@@ -7,5 +7,6 @@ RUN apt-get update && apt-get install -y \
     clang \
     mtools \
     xorriso \
-    gcc
+    gcc \
+    g++
 CMD ["./toolchain"]
